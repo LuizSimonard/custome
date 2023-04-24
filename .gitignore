@@ -1,0 +1,80 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+node_modules/
+/build/
+/.pnp
+.pnp.js
+coverage/
+.cache
+/.eslintcache
+.npm
+.npmrc
+.yarnrc
+.yarn-error.log
+yarn.lock
+package-lock.json
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# General
+.DS_Store
+*.log
+*.bak
+*.swp
+*~
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+*.so
+*.o
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Editor-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+*.tmproj
+*.tmp
+*.tmux
+*.tmuxp
+*.tmuxinator
+*.project
+*.settings
+*.nbproject
+*.buildpath
